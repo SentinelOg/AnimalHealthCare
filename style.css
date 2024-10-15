@@ -1,0 +1,32 @@
+body {
+    background-image: url('WhatsApp\ Image\ 2024-10-13\ at\ 23.09.55_c2000672.jpg');
+    background-size: cover;    /* This makes the image cover the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center center; /* Centers the image on the page */
+    height: 100vh; /* Ensures the body takes up the full viewport height */
+    margin: 0;
+    padding: 0;
+}
+
+
+.dashboard {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #aaf3f5;
+}
+
+.charts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.chart {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
