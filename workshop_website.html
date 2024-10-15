@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard">
+        <h1>Dashboard</h1>
+        <div class="charts">
+            <div class="chart">
+                <h2>Location</h2>
+                <div id="LocationChart"></div>
+            </div>
+            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2662139/maps/channel_show"></iframe>           
+            <div class="chart">
+                <h2>Heart rate</h2>
+                <div id="Heart rateChart"></div>
+            </div>
+            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2662139/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+            <div class="chart">
+                <h2>Temperature</h2>
+                <div id="TemperatureChart"></div>
+            </div>
+            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2694030/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&yaxismax=60&yaxismin=30"></iframe>
+        </div>
+    </div>
+</body>
+</html>
